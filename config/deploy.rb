@@ -30,7 +30,7 @@ set :keep_releases, 5   # 6
    end
  end
 
-# Default branch is :master
+ # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name

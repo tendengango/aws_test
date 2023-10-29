@@ -35,7 +35,7 @@ install_plugin Capistrano::SCM::Git
  require "capistrano/safe_deploy_to"
  require 'capistrano3/unicorn'
 # require "capistrano/passenger"
-append :linked_files, 'config/secrets.yml' 
+#append :linked_files, 'config/secrets.yml' 
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
