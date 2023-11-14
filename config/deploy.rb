@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.18.0"
 
-set :application, "blog_app"
+set :application, "aws_test"
 set :repo_url, "https://github.com/tendengango/aws_test.git"
 set :linked_files, %w{config/secrets.yml}   # 4
 set :bundle_without, %w{test}.join(':')
